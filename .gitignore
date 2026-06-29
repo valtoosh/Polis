@@ -46,3 +46,6 @@ coverage/
 
 # Build artifacts
 *.so
+
+# Local research manuscript (not for GitHub)
+paper/
