@@ -1,0 +1,24 @@
+{
+  "cluster": "localnet",
+  "rpcUrl": "http://127.0.0.1:8899",
+  "usdcMint": "7bBb5zNeepZCxJaatUPPGmGDom91Q3oZfoaHri5c1d4Z",
+  "adminPubkey": "6n5RZ1tUtD23bjHo39btAbVgztnq5zB4mZA99NU3X59B",
+  "programs": {
+    "identity": "wSWCbEtpjD9fpVR5XSrK9YhEtJKNwPefkwHTN2v3SbG",
+    "wallet": "7Jz35XjSeWfA28t8oxzbTyfUTuvgiM4YYnkygpktALBY",
+    "x402": "3qWKUNmhHw7qraor4oYuyzchYwqQFiYDUbxMKoK5NKt8",
+    "credit": "7jCmeDoXpMFRTsWYuCeKvx1TiHF9pjT4iyTKLQaPaHDQ",
+    "reputation": "AskjrF52LFEJaQc7d5Z46AMEDnKRoURMFBqmcacvAEoP"
+  },
+  "poolPubkey": "93ySeN23Fm2h9C2KvUsixeKBNPbvKZS2gtNer3emj4jY",
+  "poolUsdcAta": "FTYsg74o2ZfvpCwdT7yQodPT4hdakxbgMXwMobGW1QCW",
+  "agentCodeHashHex": "d576bf0bb2a22b0231f61afa52d2fc6d53f4b0926284ff2e711a14c30bfa15e8",
+  "agentOperatorPubkey": "8gwVxoZPYq6db6nXxMBJVMTuYTEbL2xSUwKTUT9Y3V3C",
+  "agentProfilePda": "5GkPZVUoMh1tykumvH5qWcoRWjjRvj5xh2QcR3euy2Lp",
+  "agentStakeBondPda": "Gs8mmWpuGDMzrjwrWGKxQUWoT3WUu12xSFWUrm1QqpCA",
+  "agentWalletPda": "DG5xkzzLMvabtyoSsKS7y2wwLuLWNPgRtLYj1L7Soz5D",
+  "agentWalletAta": "5TgBNnNFk9NfQRupQkDzC8ugkWk5yQPPGBLf8cxMPKHB",
+  "agentCreditLinePda": "9PAPhYdePuqe1PPjAa52GspzjdjVdw4hqWTePH6eNnLn",
+  "agentVouchPoolPda": "AaLLWZY2jxCnTt1HeiUBnb3GwSJsFv4ijn6ghpRRRxTC",
+  "demoStart": "2026-06-15T19:39:37.864Z"
+}

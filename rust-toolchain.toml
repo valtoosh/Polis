@@ -1,0 +1,6 @@
+[toolchain]
+# 1.85 is required because some transitive deps (wit-bindgen 0.57+) require
+# Cargo's stable edition2024 feature. Anchor's CLI invokes `cargo metadata`
+# which pulls these transitives even when they won't be built.
+channel = "1.85.0"
+components = ["rustfmt", "clippy"]

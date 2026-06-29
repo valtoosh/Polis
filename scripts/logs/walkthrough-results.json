@@ -1,0 +1,180 @@
+{
+  "code_hash": "d576bf0bb2a22b0231f61afa52d2fc6d53f4b0926284ff2e711a14c30bfa15e8",
+  "cluster": "localnet",
+  "llm_model": "meta/llama-3.1-8b-instruct",
+  "service_price_usd": 0.1,
+  "phases": [
+    {
+      "name": "earn",
+      "after": {
+        "wallet_usd": 0.0,
+        "pool_usd": 1000.0,
+        "vouch_pool_usd": 10.0,
+        "vouch_pool_ata_usd": 10.0,
+        "stake_bond_usd": 50.0,
+        "reputation_score": 1.0,
+        "credit": null,
+        "wall_ms": 4979,
+        "llm_total_in_tokens": 874,
+        "llm_total_out_tokens": 388
+      }
+    },
+    {
+      "name": "credit_cycle_1",
+      "after": {
+        "wallet_usd": 0.0,
+        "pool_usd": 1000.0,
+        "vouch_pool_usd": 10.0,
+        "vouch_pool_ata_usd": 10.0,
+        "stake_bond_usd": 50.0,
+        "reputation_score": 1.0,
+        "credit": {
+          "principal_usd": 0.0,
+          "accrued_interest_usd": 0.0,
+          "apr_bps": 1200,
+          "is_active": false
+        }
+      }
+    },
+    {
+      "name": "credit_cycle_2",
+      "after": {
+        "wallet_usd": 0.0,
+        "pool_usd": 1000.0,
+        "vouch_pool_usd": 10.0,
+        "vouch_pool_ata_usd": 10.0,
+        "stake_bond_usd": 50.0,
+        "reputation_score": 1.0,
+        "credit": {
+          "principal_usd": 0.0,
+          "accrued_interest_usd": 0.0,
+          "apr_bps": 1200,
+          "is_active": false
+        }
+      }
+    }
+  ],
+  "service_calls": [
+    {
+      "i": 0,
+      "pay_sig": "4CEXqJG9kKWuZLTHJqDip3H4WCrxr5EvCkLWyjKzAgzNZuxTB9MyH2b4TRxVYj7xJMMQ3hYdZMwX9AjLoGcswi1J",
+      "amount_usd": 0.1,
+      "llm_latency_ms": 878,
+      "llm_cost_est_usd": 1.08e-05,
+      "summary_chars": 291,
+      "summary_preview": "Decentralized finance protocols use smart contracts on a public blockchain to facilitate lending, borrowing, and trading without intermediaries. Liquidity provi"
+    },
+    {
+      "i": 1,
+      "pay_sig": "4jf5JXYwzUYkRn4NCFLq4eqMGQekxUcWdUM6v6zUWTDL18YHff9BefWSD8ykKoMSc3uRi6pzAHcCFuchvATNVyLk",
+      "amount_usd": 0.1,
+      "llm_latency_ms": 555,
+      "llm_cost_est_usd": 9.5e-06,
+      "summary_chars": 253,
+      "summary_preview": "An autonomous software agent can manage its own finances, including paying for compute resources and accepting payments for services rendered. It can also borro"
+    },
+    {
+      "i": 2,
+      "pay_sig": "2Koe9Zs1WL7Gyyxtngjv8SKmaz96ZjXeRMBEBawrMYWypRCmj1ZE5GPJu9h7M7LLf1YMQfmCJyTEib5i4GinPkXQ",
+      "amount_usd": 0.1,
+      "llm_latency_ms": 583,
+      "llm_cost_est_usd": 1.05e-05,
+      "summary_chars": 265,
+      "summary_preview": "Reputation tied to a transferable wallet can be vulnerable to attacks where an adversary assumes a wallet's identity. Binding reputation to an agent's code hash"
+    },
+    {
+      "i": 3,
+      "pay_sig": "RVz9SS9xBjMVMB7q7H43ce2nKgkDFpEVw5pBiUXwA9SUJBTd9zBjxTVcJARfP16BDu8m6EjtM1zEJ4km9bw4rA5",
+      "amount_usd": 0.1,
+      "llm_latency_ms": 502,
+      "llm_cost_est_usd": 1.07e-05,
+      "summary_chars": 303,
+      "summary_preview": "Decentralized finance protocols use smart contracts on a public blockchain to facilitate lending, borrowing, and trading without intermediaries. Liquidity provi"
+    },
+    {
+      "i": 4,
+      "pay_sig": "4UX1niC3h7mBnFmSezCTBWZRnKMgTrJTwYpBkFGHfQmxHoacN74jckFXmD1RRMrUi7akRKc6N1G6DD2h7H4ayR9b",
+      "amount_usd": 0.1,
+      "llm_latency_ms": 687,
+      "llm_cost_est_usd": 9.5e-06,
+      "summary_chars": 263,
+      "summary_preview": "An autonomous software agent can manage its own finances, including paying for compute resources and accepting payments for services rendered. It can also borro"
+    },
+    {
+      "i": 5,
+      "pay_sig": "4VCK4Y2cVr6zCRX5xdE5zTRfEo3mAgDtxZ3fV8mNJAREML5PbqTDEd747juthRPNYKam4VQTzvcz2SiigYAePfzh",
+      "amount_usd": 0.1,
+      "llm_latency_ms": 615,
+      "llm_cost_est_usd": 1.15e-05,
+      "summary_chars": 311,
+      "summary_preview": "Reputation bound to a transferable wallet can be vulnerable to attacks where an adversary acquires a wallet with a good reputation. Binding reputation to the ag"
+    },
+    {
+      "i": 6,
+      "pay_sig": "26zYLko9dANtQok5u9peieVL4DNHcs9NcQ1UpV9rDqBjGrgk5fHwRhxew9HEQQfcE8tCmnw9pv1JUS3FBVEhsrMf",
+      "amount_usd": 0.1,
+      "llm_latency_ms": 558,
+      "llm_cost_est_usd": 1.04e-05,
+      "summary_chars": 267,
+      "summary_preview": "Decentralized finance protocols use smart contracts on a public blockchain to facilitate lending, borrowing, and trading without intermediaries. Liquidity provi"
+    },
+    {
+      "i": 7,
+      "pay_sig": "2c9nwUhMWiYpySQmWbASXN8CgRThigNUnXaJn16v6GPQyXYGwrJrtkPWaoUvQCVM8SKxvGoYsDmfh1W3PE9EVZmS",
+      "amount_usd": 0.1,
+      "llm_latency_ms": 579,
+      "llm_cost_est_usd": 9.6e-06,
+      "summary_chars": 266,
+      "summary_preview": "An autonomous software agent can manage its own wallet, making transactions for compute, services, and borrowing against future earnings without human approval."
+    }
+  ],
+  "credit_events": [
+    {
+      "cycle": 1,
+      "kind": "draw",
+      "amount_usd": 10.0,
+      "sig": "4fcWZpvmaL1d2rWgzGjK1AvjaTPfUQRWwJ2cavQKYYn8JkbfiEZCLnB78UMxkDK9L1EYmkST6TBtScpuXDya1goP"
+    },
+    {
+      "cycle": 1,
+      "kind": "repay",
+      "amount_usd": 10.0,
+      "sig": "21bd3YpTNBGhGya464ey1wY6HncYtUYKo4sBJRDeh17B36qN5x4DDwsBRfkbagUpgjrnhYQLVbGQu8tuxtyVaV5B"
+    },
+    {
+      "cycle": 2,
+      "kind": "draw",
+      "amount_usd": 10.0,
+      "sig": "23nciWDT3CxMVmA37wZuRNNCQobtfgsD72QorXDZwat5Z4jNAx4GQNvhXgGeAYtUKQtBds1WyocKmRHofY25pTwe"
+    },
+    {
+      "cycle": 2,
+      "kind": "repay",
+      "amount_usd": 10.0,
+      "sig": "5PDirhs8XqZsasqcWh3m6TCLLFW127zPhQwFxYmTHK8rkQWoEYGdgbdAbrnx12Rv8Swkz57acALD2PfGSC9DjHFG"
+    }
+  ],
+  "t0": {
+    "wallet_usd": 0.0,
+    "pool_usd": 1000.0,
+    "vouch_pool_usd": 10.0,
+    "vouch_pool_ata_usd": 10.0,
+    "stake_bond_usd": 50.0,
+    "reputation_score": 1.0,
+    "credit": null
+  },
+  "tf": {
+    "wallet_usd": 0.0,
+    "pool_usd": 1000.0,
+    "vouch_pool_usd": 10.0,
+    "vouch_pool_ata_usd": 10.0,
+    "stake_bond_usd": 50.0,
+    "reputation_score": 1.0,
+    "credit": {
+      "principal_usd": 0.0,
+      "accrued_interest_usd": 0.0,
+      "apr_bps": 1200,
+      "is_active": false
+    }
+  }
+}

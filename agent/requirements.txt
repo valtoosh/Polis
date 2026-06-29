@@ -1,0 +1,10 @@
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+openai==1.54.0
+anchorpy==0.20.1
+solana==0.34.3
+solders==0.21.0
+blake3==0.4.1
+python-dotenv==1.0.1
+httpx==0.27.2
+pydantic==2.9.2

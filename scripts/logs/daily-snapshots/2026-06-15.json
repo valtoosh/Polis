@@ -1,0 +1,40 @@
+{
+  "date": "2026-06-15",
+  "iso": "2026-06-15T19:41:12.068Z",
+  "cluster": "localnet",
+  "agent": {
+    "code_hash_hex": "d576bf0bb2a22b0231f61afa52d2fc6d53f4b0926284ff2e711a14c30bfa15e8",
+    "operator": "8gwVxoZPYq6db6nXxMBJVMTuYTEbL2xSUwKTUT9Y3V3C",
+    "profile_pda": "5GkPZVUoMh1tykumvH5qWcoRWjjRvj5xh2QcR3euy2Lp",
+    "is_retired": false
+  },
+  "balances_usd": {
+    "wallet": 20.8,
+    "stake_bond": 50,
+    "pool": 1000,
+    "vouch_pool": 10
+  },
+  "wallet_counters": {
+    "total_inflow_usd": 0,
+    "total_outflow_usd": 0,
+    "is_paused": false,
+    "per_trade_cap_bps": 2000
+  },
+  "reputation": {
+    "total_vouched_usd": 10,
+    "rep_ratio": 1
+  },
+  "credit": {
+    "active": false,
+    "principal_usd": 0,
+    "accrued_interest_usd": 0,
+    "apr_bps": 1200,
+    "last_accrual_iso": "2026-06-15T19:40:24.000Z"
+  },
+  "traffic": {
+    "calls_today": 0,
+    "earnings_today_usd": 0,
+    "cumulative_calls": 0,
+    "cumulative_earnings_usd": 0
+  }
+}

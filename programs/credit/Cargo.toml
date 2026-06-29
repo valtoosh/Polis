@@ -1,0 +1,29 @@
+[package]
+name = "credit"
+version = "0.1.0"
+edition = "2021"
+description = "polis Credit primitive — single LP pool that lends USDC to agents against their reputation stake. Default flow recovers from Reputation VouchPool before haircutting LPs."
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "credit"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build", "reputation/idl-build"]
+anchor-debug = []
+custom-heap = []
+custom-panic = []
+solana = []
+
+[dependencies]
+anchor-lang = { version = "0.30", features = ["init-if-needed"] }
+anchor-spl = "0.30"
+reputation = { path = "../reputation", features = ["cpi"] }
+
+[lints]
+workspace = true

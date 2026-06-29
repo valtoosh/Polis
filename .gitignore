@@ -1,0 +1,48 @@
+# Rust / Anchor
+target/
+.anchor/
+**/*.rs.bk
+Cargo.lock
+
+# Node
+node_modules/
+dist/
+*.log
+.yarn/
+.pnp.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Secrets / local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+keypair*.json
+target-keypair*.json
+
+# IDE / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+*.swp
+*.swo
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Build artifacts
+*.so
